@@ -1,0 +1,7 @@
+<h1> Time to Fight ya pleb! </h1>
+<h2> <%= @game.player1.name %> vs <%= @game.player2.name%> </h2>
+<div><%= @game.player2.name%>'s HP: <%= @game.player2.hp %> </div>
+
+<form action="/battlefield">
+  <input type="submit" value="Attack!">
+</form>
